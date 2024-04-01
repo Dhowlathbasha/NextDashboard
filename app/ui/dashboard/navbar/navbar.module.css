@@ -1,0 +1,40 @@
+.container {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--bgSoft);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: bold;
+  color: var(--textSoft);
+  text-transform: capitalize;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: #2e374a;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input{
+  background-color: transparent;
+  border: none ;
+  color: var(--text);
+}
+
+.icons{
+  gap: 20px;
+  display: flex;
+}
