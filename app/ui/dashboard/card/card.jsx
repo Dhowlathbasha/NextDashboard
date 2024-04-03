@@ -12,7 +12,6 @@ const Card = () => {
           <span className={styles.positive}>12%</span>more than previous report
         </span>
       </div>
-      Card
     </div>
   );
 };
